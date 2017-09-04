@@ -14,7 +14,8 @@
   <!-- the component as the initial center of the map: -->
   <agm-map [latitude]="lat" [longitude]="lng">
     <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    <marker-cluster [points]="points" ></marker-cluster>
   </agm-map>
 
-  
+
 </ion-content>

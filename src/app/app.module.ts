@@ -10,11 +10,13 @@ import { HomePage } from '../pages/home/home';
 import { HttpModule } from "@angular/http";
 
 import { AgmCoreModule } from '@agm/core';
+import { MarkerClusterDirective } from './../directives/marker-cluster/marker-cluster';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    MarkerClusterDirective
   ],
   imports: [
     BrowserModule,
